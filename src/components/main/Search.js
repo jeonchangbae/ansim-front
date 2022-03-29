@@ -44,7 +44,7 @@ function Search() {
     }
 
     const toggleSearch = () =>{
-        navigate('/homeList');
+        navigate(`/homeList/${location}`);
     }
 
 

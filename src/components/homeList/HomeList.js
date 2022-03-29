@@ -6,17 +6,21 @@ import InfoCard from './InfoCard';
 import Map from './Map';
 import Search from '../main/Search';
 import { Pagination } from '@mui/material';
+import { useParams } from 'react-router-dom';
 
 
 function HomeList() {
-    const shelterListUrl = "http://localhost:8080/book/v1/home/list"
+    const shelterListUrl = "http://localhost:8080/book/v1/home/find/"
+    // const shelterListUrl = "http://localhost:8080/book/v1/home/list"
+    
     // const shelterListUrl = "book/v1/home/list";
+    const {location} = useParams();
     const [shelterlist, setShelterlist] = useState([]);
     const [page, setPage] = useState(0);
     const [pageNum, setPageNum] =useState(1);
 
     useEffect(()=>{
-        axios.get(shelterListUrl)
+        axios.get(shelterListUrl + location)
         .then(res=>{
             setShelterlist(res.data)
             console.log(res.data)
