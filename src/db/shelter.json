@@ -1,0 +1,264 @@
+{
+  "shelterdata": [
+    {
+      "id": 1,
+      "imageName": "shelter1-1.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "남구",
+      "shelter_point": "4.5"
+    },
+    {
+      "id": 2,
+      "imageName": "shelter2-1.jpg",
+      "shleter_name": "여성 쉼터",
+      "shelter_location": "금정구",
+      "shelter_point": "4.6"
+    },
+    {
+      "id": 3,
+      "imageName": "shelter3-1.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "해운대구",
+      "shelter_point": "4.7"
+    },
+    {
+      "id": 4,
+      "imageName": "shelter4-1.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "부산진구",
+      "shelter_point": "4.8"
+    },
+    {
+      "id": 5,
+      "imageName": "room4.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "부산진구",
+      "shelter_point": "4.8"
+    },
+    {
+      "id": 6,
+      "imageName": "room4.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "부산진구",
+      "shelter_point": "4.8"
+    },
+    {
+      "id": 7,
+      "imageName": "room4.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "부산진구",
+      "shelter_point": "4.8"
+    },
+    {
+      "id": 8,
+      "imageName": "room4.jpg",
+      "shleter_name": "청소년쉼터",
+      "shelter_location": "부산진구",
+      "shelter_point": "4.8"
+    }
+  ],
+  "homePolicy": [
+    {
+      "id": 1,
+      "policy": "체크인 예정일로부터 1일이 지나면 예약은 자동 취소된다."
+    },
+    {
+      "id": 2,
+      "policy": "체크인 관련 특이사항이 있다면 호스트에게 문의하거나 채팅으로 알려야 한다."
+    },
+    {
+      "id": 3,
+      "policy": "게스트는 예약 정보와 신분(이름, 성별, 신분증명)이 일치해야 한다."
+    },
+    {
+      "id": 4,
+      "policy": "객실에 자리가 있따면 게스트는 본인 외에 1명 더 동반 입실이 가능하다."
+    },
+    {
+      "id": 5,
+      "policy": "동반 입실을 희망할 경우 호스트에게 문의하거나 채팅으로 알려야 한다."
+    },
+    {
+      "id": 6,
+      "policy": "음주자, 전염성이 있는 질환 이나 공동체 생활이 어려운 정신질환자의 경우 입실이 제한된다."
+    }
+  ],
+  "findAllShelterCategories": [
+    {
+      "id": 1,
+      "shelterCategoryName": "일시"
+    },
+    {
+      "id": 2,
+      "shelterCategoryName": "단기"
+    },
+    {
+      "id": 3,
+      "shelterCategoryName": "중장기"
+    },
+    {
+      "id": 4,
+      "shelterCategoryName": "자립지원관"
+    },
+    {
+      "id": 5,
+      "shelterCategoryName": "여성전용"
+    },
+    {
+      "id": 6,
+      "shelterCategoryName": "기타"
+    }
+  ],
+  "findAllShelterFacilities": [
+    {
+      "id": 1,
+      "shelterFacilityName": "WIFI"
+    },
+    {
+      "id": 2,
+      "shelterFacilityName": "도서실"
+    },
+    {
+      "id": 3,
+      "shelterFacilityName": "교육실"
+    },
+    {
+      "id": 4,
+      "shelterFacilityName": "취사실"
+    },
+    {
+      "id": 5,
+      "shelterFacilityName": "화장실"
+    },
+    {
+      "id": 6,
+      "shelterFacilityName": "자습실"
+    },
+    {
+      "id": 7,
+      "shelterFacilityName": "휴식실(TV)"
+    },
+    {
+      "id": 8,
+      "shelterFacilityName": "정원"
+    }
+  ],
+  "saveShelter": [
+    {
+      "city": "부산",
+      "homeCategoryId": 2,
+      "homeName": "파랑새 지역아동센터",
+      "homeHostPhone": "010-1234-5678",
+      "homeHostEmail": "bluebird@gmail.com",
+      "rooms": [
+        {
+          "roomName": "남자 방",
+          "singleBed": "3",
+          "doubleBed": "3",
+          "bedding": "7",
+          "maxHeadCount": "8"
+        },
+        {
+          "roomName": "여자 방",
+          "singleBed": "5",
+          "doubleBed": "4",
+          "bedding": "3",
+          "maxHeadCount": "6"
+        }
+      ],
+      "facility": [],
+      "images": [
+        "shelter2-1.jpg",
+        "shelter2-2.jpg"
+      ],
+      "checkInTime": 1,
+      "homePolicies": [
+        "1",
+        "2",
+        "3"
+      ],
+      "roomRule": "음주 금지,고성방가 금지",
+      "homeInfomation": "파랑새 쉼터",
+      "id": 1
+    },
+    {
+      "city": "서울",
+      "homeCategoryId": 4,
+      "homeName": "희망스쿨 지역아동센터",
+      "homeHostPhone": "010-1234-1234",
+      "homeHostEmail": "hope@gmail.com",
+      "rooms": [
+        {
+          "roomName": "남자",
+          "singleBed": "2",
+          "doubleBed": "2",
+          "bedding": "4",
+          "maxHeadCount": "4"
+        },
+        {
+          "roomName": "여자",
+          "singleBed": "4",
+          "doubleBed": "2",
+          "bedding": "8",
+          "maxHeadCount": "5"
+        }
+      ],
+      "facility": [],
+      "images": [
+        "shelter3-1.jpg",
+        "shelter3-2.jpg"
+      ],
+      "checkInTime": 2,
+      "homePolicies": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "roomRule": "음주 금지, 고성방가 금지",
+      "homeInfomation": "안전한 희망 쉼터입니다",
+      "id": 2
+    },
+    {
+      "city": "대구",
+      "homeCategoryId": 1,
+      "homeName": "가람뫼 지역아동센터",
+      "homeHostPhone": "010-1234-1234",
+      "homeHostEmail": "garam@mail.com",
+      "rooms": [
+        {
+          "roomName": "남자",
+          "singleBed": "3",
+          "doubleBed": "3",
+          "bedding": "8",
+          "maxHeadCount": "6"
+        },
+        {
+          "roomName": "여자",
+          "singleBed": "8",
+          "doubleBed": "0",
+          "bedding": "0",
+          "maxHeadCount": "8"
+        }
+      ],
+      "facility": [],
+      "images": [
+        "shelter4-1.jpg",
+        "shelter4-2.jpg",
+        "shelter4-4.jpg"
+      ],
+      "checkInTime": 2,
+      "homePolicies": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "roomRule": "음주 금지",
+      "homeInfomation": "청소년 중장기 쉼터 입니다.",
+      "id": 3
+    }
+  ]
+}

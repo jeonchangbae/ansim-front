@@ -1,0 +1,131 @@
+.shleterFacility__container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.shleterFacility__container input{
+    margin-bottom: 20px;
+}
+
+.shelterFacility__room {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.shelterFacility__room h2{
+    margin: 10px;
+}
+.room__choice{
+    margin: 30px;
+}
+
+.line{
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+.shelterFacility__room .roomname{
+    margin-left: 20px;
+    width: 700px;
+}
+
+.bed__count{
+    display: flex;
+    margin-left: 30px;
+}
+
+.bed__count > h4{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bed2__count {
+    display: flex;
+    margin-left: 30px;
+    
+}
+
+.bed2__count > h4{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blanket__count{
+    display: flex;
+    margin-left: 30px;
+}
+
+.blanket__count > h4{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blanket__count{
+    display: flex;
+    margin-left: 30px;
+}
+
+.blanket__count > h4{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.people__count{
+    display: flex;
+    margin-left: 30px;
+}
+
+.people__count > h4{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+
+}
+
+.room_photo{
+    border: 1px solid black;
+}
+.upload_img {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+.upload_img img {
+    margin: 5px;
+    width: 500px;
+    overflow-x: scroll;
+}
+
+.hostingstep2__button {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hostingstep2__button >button{
+    margin-right: 30px;
+    padding: 10px 30px;
+    font-size: 20px;    
+    background-color: rgb(4, 58, 37);
+    color: white;
+    border: solid 1px white;
+    font-family: 'Jua', sans-serif;
+}
+

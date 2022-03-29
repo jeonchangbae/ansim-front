@@ -1,0 +1,10 @@
+.host_checkout_card_indate {
+    font-weight: normal;
+    color: #0004ff;
+    font-size: 20px;
+}
+.host_checkout_card_outdate {
+    font-weight: normal;
+    color: #ff0000;
+    font-size: 20px;
+}

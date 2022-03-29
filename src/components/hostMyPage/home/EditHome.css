@@ -1,0 +1,47 @@
+.home_status_title {
+    font-size: 1.5rem;
+    color: #555555;
+}
+
+.home_status {
+    padding-left: 20px;
+}
+
+.home_status span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.home_status p {
+    padding-left: 40px;
+}
+
+.home_status_button_box {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.home_status_button_box button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #043a2577;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.home_status_button_box button:hover {
+    background-color: #043a25;
+    transition: 0.1s;
+}
+
+.edit_home_small_title {
+    width: 20%;
+}
+
+.edit_home_small_content {
+    width: 70%;
+}

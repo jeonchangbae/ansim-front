@@ -1,0 +1,13 @@
+.guest__info{
+    display: flex;
+}
+
+.guestProfile{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.guestReservation{
+    margin: 20px;
+    border: 1px solid black;
+}

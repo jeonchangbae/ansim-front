@@ -1,0 +1,58 @@
+.hostPolicy__time{
+    margin: 10px;
+}
+
+.hostPolicy__policy{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.hostPolicy__policy input{
+    margin-bottom: 20px;
+}
+
+.hostPolicy__rule{
+    margin: 10px;
+}
+.hostPolicy__rule textarea{
+    display: block;
+    width:  900px;
+    height: 200px;
+    padding:  15px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1;
+    resize: vertical;
+}
+.hostPolicy__description{
+    margin: 10px;
+}
+
+.hostPolicy__description textarea{
+    display: block;
+    width:  900px;
+    height: 200px;
+    padding:  15px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1;
+    resize: vertical;
+}
+
+.hostingstep3__button {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hostingstep3__button >button{
+    margin-right: 30px;
+    padding: 10px 30px;
+    font-size: 20px;    
+    background-color: rgb(4, 58, 37);
+    color: white;
+    border: solid 1px white;
+    font-family: 'Jua', sans-serif;
+}

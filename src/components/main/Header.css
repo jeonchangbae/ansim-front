@@ -1,0 +1,258 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: 100%;
+}
+.header__icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 10px;
+  cursor: pointer; 
+}
+
+.header__center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  margin-left: 50px;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  box-shadow: 0.5px 0.5px gainsboro;
+  
+}
+.header__center > input {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  width: 500px;
+}
+
+
+.header__right {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  margin-right: 10px;
+  color: gray;
+}
+
+
+.search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.search_info{
+  display: flex;
+}
+
+.search_gender{
+margin: 0 40px;
+align-items: center;
+}
+
+.search_guest input {
+  width: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 0 20px;
+  height: 30px;
+  top: 400px;
+  border: none;
+  
+}
+
+.search_guest input:focus{
+  outline-width: 0;
+}
+
+
+.search_bottom button {
+  color: green;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.search_bottom  button:hover {
+  box-shadow: 1px 1px gainsboro;
+}
+
+.menu-container {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu-container p {
+font-size: 5px;
+}
+.hostmenu-trigger {
+margin: 10px;
+background: #ffffff;
+border-radius: 15px;
+cursor: pointer;
+justify-content: space-between;
+align-items: center;
+padding: 4px 6px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+border: none;
+vertical-align: middle;
+transition: box-shadow 0.4s ease;
+margin-left: auto; /* Strictly for positioning */
+margin: 10px;
+}
+
+.hostmenu-trigger:hover {
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hostmenu-trigger span {
+font-weight: 700;
+vertical-align: middle;
+font-size: 14px;
+margin: 0 10px;
+}
+
+.hostmenu-trigger img {
+border-radius: 90px;
+}
+
+.hostmenu {
+background: #ffffff;
+border-radius: 8px;
+position: absolute;
+top: 60px;
+right: 0;
+width: 300px;
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+opacity: 0;
+visibility: hidden;
+transform: translateY(-20px);
+transition: opacity 0.4s ease;
+}
+
+.hostmenu.active {
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+}
+
+.hostmenu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.hostmenu li {
+border-bottom: 1px solid #dddddd;
+}
+
+
+.hostmenu li a {
+text-decoration: none;
+color: #333333;
+padding: 15px 20px;
+display: block;
+}
+
+.hostmenu li Link {
+text-decoration: none;
+color: #333333;
+padding: 15px 20px;
+display: block;
+}
+
+.guestmenu-trigger {
+background: #ffffff;
+border-radius: 15px;
+cursor: pointer;
+justify-content: space-between;
+align-items: center;
+padding: 4px 6px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+border: none;
+vertical-align: middle;
+transition: box-shadow 0.4s ease;
+margin-left: auto; /* Strictly for positioning */
+margin: 10px;
+}
+
+.guestmenu-trigger:hover {
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.guestmenu-trigger span {
+font-weight: 700;
+vertical-align: middle;
+font-size: 14px;
+margin: 0 10px;
+}
+
+.guestmenu-trigger img {
+border-radius: 90px;
+}
+.guestmenu {
+background: #ffffff;
+border-radius: 8px;
+position: absolute;
+top: 60px;
+right: 0;
+width: 300px;
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+opacity: 0;
+visibility: hidden;
+transform: translateY(-20px);
+transition: opacity 0.4s ease;
+}
+
+.guestmenu.active {
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+}
+
+.guestmenu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.guestmenu li {
+border-bottom: 1px solid #dddddd;
+}
+
+
+.guestmenu li a {
+text-decoration: none;
+color: #333333;
+padding: 15px 20px;
+display: block;
+}
+
+.guestmenu li Link {
+text-decoration: none;
+color: #333333;
+padding: 15px 20px;
+display: block;
+}

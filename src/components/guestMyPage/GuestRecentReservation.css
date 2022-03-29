@@ -1,0 +1,53 @@
+
+.guestRecentReservation{
+    margin: 10px;
+}
+.reservation__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.room_img > img{
+    margin: 20px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 350px;
+    margin: 5px;
+}
+
+.shelter_location {
+    border: 1px solid black;
+    padding: 30px;
+    margin: 5px;
+}
+
+.room_name{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 5px;
+}
+
+.checkIn_date{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 5px;
+}
+
+.checkOut_date{
+    border: 1px solid black;
+    padding: 30px;
+    margin: 5px;
+}
+
+.reservation_info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.reservation__button{
+    display: flex;
+    justify-content: space-around;
+}

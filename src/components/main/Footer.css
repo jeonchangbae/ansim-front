@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    background-color: #08192b;
+    color: #869fb2;    
+    font-size: 14px;
+    border: none;
+}
+
+.footer__container{
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.footer__logo >img{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.footer__contact{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.footer__sns {
+    display: flex;    
+    align-items: flex-end;
+}
+
+.footer__sns >img {
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+}

@@ -1,0 +1,286 @@
+.reservation_header {
+    font-size: 2.0rem;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 20px auto;
+}
+
+.title {
+    font-size: 2.0rem;
+    padding-left: 20px;
+}
+
+.image_container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #043a25;
+    border-radius: 15px;
+}
+
+.map_container {
+    width: 20%;
+    height: 500px;
+    text-align: center;
+}
+
+.map_title {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    display: block;
+    margin: 0;
+}
+
+.reservation_map_box {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.home_images_box {
+    width: 15%;
+    height: 400px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.home_images_box::-webkit-scrollbar {
+    width: 5px;
+}
+
+.home_images_box::-webkit-scrollbar-thumb {
+    background-color: #043a25;
+}
+
+.home_images_box::-webkit-scrollbar-track {
+    background-color: #dddddd;
+}
+
+.home_images {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.home_image_box {
+    width: 55%;
+    height: 500px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.contents_container {
+    border: 2px solid #043a25;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+.home_information {
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reservation_content_1 {
+    font-weight: bold;
+}
+
+.reservation_content_2 {
+    color: #043a25;
+    font-weight: bold;
+}
+
+.reservation_content_3 {
+    color: #888888;
+}
+
+.reservation_change_button {
+    border: none;
+    background-color: #043a25;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.reservation_table {
+    width: 100%;
+    text-align: center;
+}
+
+.reservation_table thead {
+    background-color: #043a25;
+    color: #ffffff;
+    height: 40px;
+}
+
+.reservation_table tbody {
+    height: 40px;
+}
+
+.table_room_name {
+    width: 30%;
+}
+
+.table_room_gender {
+    width: 20%;
+}
+
+.table_room_max_head_count {
+    width: 15%;
+}
+
+.table_room_available {
+    width: 15%;
+}
+
+.table_room_button {
+    width: 20%;
+}
+
+.reservation_room_button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #043a2577;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.reservation_room_button:hover {
+    background-color: #043a25;
+    transition: 0.1s;
+}
+
+.policy_box {
+    width: 30%;
+}
+
+.policy_box ul {
+    list-style-type: upper-roman;
+}
+
+.policy_box li {
+    padding: 5px 0;
+}
+
+.policy_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #043a25;
+}
+
+.policy_custom {
+    padding: 10px;
+}
+
+.facility_box {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.facility_icon {
+    height: 50px;
+}
+
+.facility_text {
+
+}
+
+.review_box {
+    width: 80%;
+    margin: auto;
+}
+
+.star_box {
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.star {
+    width: 30px;
+}
+
+.review_text {
+    margin-top: 0;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 30px;
+}
+
+.reservation_modal_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reservation_modal_box {
+    width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px #000000;
+}
+
+.reservation_modal_text {
+    font-size: 1.1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.reservation_modal_input {
+    width: 600px;
+    height: 100px;
+}
+
+.day_pick_box {
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.day_pick_inner_box {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.hour_select {
+    width: 30%;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+.button_box {
+    margin-top: 50px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+{
+    "userProfile":[
+        {
+            "id": 1,
+            "userImg" : "user1.png",
+            "userName" : "user1",
+            "userGender" : "여자",
+            "userPhonNumber" : "010-1234-5678",
+            "userEmail" :"user1@gmail.com"
+        }
+    ],
+    "userReservation":[
+        {
+            "id" :2,
+            "userName" : "user1",
+            "homeImg" : "shelter1-1.jpg",
+            "shelter_name" : "안심 쉼터",
+            "homeName" : "행복쉼터",
+            "roomName" : "1번방",
+            "checkInDate" : "2022-03-14",
+            "checkOutDate" : "2022-03-20"
+        }
+    ],
+    "userPreviousReservation":[
+        {
+            "id" :1,
+            "userName" : "user1",
+            "homeImg" : "",
+            "shelter_name" : "행복 쉼터",
+            "homeName" : "진구 중장기 쉼터",
+            "roomName" : "꿈나무 방",
+            "checkInDate" : "2022-03-08",
+            "checkOutDate" : "2022-03-14"
+        }
+    ],
+    "checkInGuests":[
+        {
+            "id" : 1,
+            "userImg" : "user1.png",
+            "userName" : "user1",
+            "userGender" : "여자",
+            "userPhonNumber" : "010-1234-5678",
+            "userEmail" :"user1@gmail.com",
+            "checkInDate" : "2022-03-08",
+            "checkOutDate" : "2022-03-14",
+            "roomName" : "꿈나무 방"
+        },
+        {
+            "id": 2,
+            "userImg" : "user2.png",
+            "userName" : "user2",
+            "userGender" : "남자",
+            "userPhonNumber" : "010-1234-5678",
+            "userEmail" :"user1@gmail.com",
+            "checkInDate" : "2022-03-15",
+            "checkOutDate" : "2022-03-24",
+            "roomName" : "희망 방"
+        }
+    ]
+}
